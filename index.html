@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <canvas id="myCanvas"></canvas>
+    <div class="sideBar">
+      <form action="#" onsubmit="play(event)">
+        <div>
+          <span>
+            <input type="radio" name="sort" id="merge" />
+            <label>Merge Sort</label>
+          </span>
+          <span>
+            <input type="radio" name="sort" id="selection" />
+            <label>Selection Sort</label>
+          </span>
+          <span>
+            <input type="radio" name="sort" id="quick" />
+            <label>Quick Sort</label>
+          </span>
+        </div>
+        <button id="btn" type="submit">Start</button>
+      </form>
+    </div>
+    <script src="canvas.js"></script>
+  </body>
+</html>
